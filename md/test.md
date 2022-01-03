@@ -1,7 +1,3 @@
-# JUst a big ol test
+# A markdown file
 
-With a paragraph errr ... line
-
-## Subsection
-
-With some text
+To test the GitHub Actions markdown to html converter
