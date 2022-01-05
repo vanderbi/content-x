@@ -14,6 +14,7 @@ Converts files markdown files in md/ to html files in html/
 """
 
 import markdown
+from markdown.extensions.toc import TocExtension
 import os
 
 def convert_md_to_html(md, html):
@@ -28,7 +29,8 @@ def convert_md_to_html(md, html):
     for file in files:
         f = open(md + file, 'r')
         text = f.read()
-        res = markdown.markdown(text)
+        # res = markdown.markdown(text)
+        res = markdown.markdown(text, extensions=[TocExtension(marker='[TOC]', toc_depth='2-6')])
         f.close()
         f = open(html + os.path.splitext(file)[0] + '.html', 'w')
         f.write(res)
