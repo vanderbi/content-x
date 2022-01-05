@@ -3,12 +3,12 @@ About EDI
 
 Table of Contents
 
+[Vision & Mission](#vision-&-mission)
+[Project](##project)
 
 [TOC]
 
-
-
-## Vision & Mission {#vision-&-mission}
+# Vision & Mission {#vision-&-mission}
 
 The Environmental Data Initiative envisions a future of intensified and diverse scientific discovery fueled by data commons accessible to all.
 
