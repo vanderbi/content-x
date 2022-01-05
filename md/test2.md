@@ -3,8 +3,7 @@ About EDI
 
 Table of Contents
 
-[Vision & Mission](#vision-&-mission)
-[Project](##project)
+[Repository Infrastructure](#repository-infrastructure)
 
 [TOC]
 
@@ -49,7 +48,8 @@ Colin Smith is a part of EDI’s data curation team and works with data provider
 Kyle Zollo-Venecek is a part of EDI’s data curation team and works with data providers to clean, document, and submit their data to the EDI repository. Kyle works through the University of Wisconsin-Madison and can be reached at kylezollo@gmail.com.
 
 
-## Repository Infrastructure
+# Repository Infrastructure
+<a name="#repository-infrastructure">Repository Infrastructure</a>
 
 Development of the Provenance Aware Synthesis Tracking Architecture (PASTA) software began in 2009 by LTER information managers and software developers with the goal to serve as the LTER Network Information System data repository. A full production system was delivered to the LTER Network in January 2013 and quickly acquired a majority of LTER’s data products (> 5,900 as of January 2017). PASTA’s design was patterned on a Service Oriented Architecture to provide scalable data-repository functionality through a ReST-based application programmable interface (API), with primary operations to create, read, update, and delete (often termed CRUD) data packages to and from the repository. In addition, the PASTA development team delivered a browser-based web application for LTER called the Data Portal that gives users a human accessible interface to interact with PASTA. This was followed by an LTER Member Node (MN) in the DataONE federation, which exposes LTER data packages through DataONE’s search and catalog service.
 
