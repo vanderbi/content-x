@@ -1,5 +1,15 @@
-# A markdown file
+# A Markdown File
 
 To test the GitHub Actions markdown to html converter
 
-A new line
+[TOC]
+
+## Header A
+
+### Header A (level 2)
+
+#### Header A (level 3)
+
+## Header B
+
+## Header C
