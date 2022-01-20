@@ -17,24 +17,27 @@ import markdown
 from markdown.extensions.toc import TocExtension
 import os
 
-def convert_md_to_html(md, html):
+
+def convert_md_to_html(md: str, html: str):
     """
     Convert markdown files to html files
 
     :param md: Path to directory of markdown files
     :param html: Path to directory of html files
-    :return: html files written to html
     """
     files = os.listdir(md)
     for file in files:
-        f = open(md + file, 'r')
-        text = f.read()
-        # res = markdown.markdown(text)
-        res = markdown.markdown(text, extensions=[TocExtension(marker='[TOC]', toc_depth='2-6')])
-        f.close()
-        f = open(html + os.path.splitext(file)[0] + '.html', 'w')
-        f.write(res)
-        f.close()
+        with open(md + file, 'r') as f:
+            text = f.read()
+            res = markdown.markdown(text, extensions=[TocExtension(marker='[TOC]', toc_depth='2-6')])
+        with open(html + os.path.splitext(file)[0] + '.html', 'w') as f:
+            f.write(res)
 
-convert_md_to_html("md/", "html/")
 
+def main():
+    convert_md_to_html("md/", "html/")
+    return 0
+
+
+if __name__ == '__main__':
+    main()
