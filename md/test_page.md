@@ -10,6 +10,7 @@ This page is written in markdown. [A rendering of this page in GitHub is here](h
 * [Table](#Table)
 * [Code](#Code)
 * [Inline elements](#Inline)
+* [Links between pages(#Links)]
 
 ***
 
@@ -165,3 +166,9 @@ Incididunt in culpa cupidatat mollit cillum qui proident sit. In cillum aliquip 
 
 en-US
   Upgrade
+
+# <a name="Links"></a>Headings
+
+# Links between pages
+
+A link to [about_edi.md](../test/about_edi.md)
