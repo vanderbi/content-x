@@ -10,7 +10,7 @@ This page is written in markdown. [A rendering of this page in GitHub is here](h
 * [Table](#Table)
 * [Code](#Code)
 * [Inline elements](#Inline)
-* [Links between pages(#Links)]
+* [Links between pages](#Links)
 
 ***
 
@@ -172,3 +172,7 @@ en-US
 # Links between pages
 
 A link to [about_edi.md](../test/about_edi.md)
+
+A link to [about_edi.md "Team" section](../test/about_edi.md#team)
+
+![an image](../images/presentation_icons_raw.png)
