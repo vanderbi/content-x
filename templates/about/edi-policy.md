@@ -1,8 +1,11 @@
 # EDI Policy
 
+
 [TOC]
 
-## Data policy
+
+
+## Data policy {#data-policy}
 
 Version 0.0, Adopted 25 November 2019
 

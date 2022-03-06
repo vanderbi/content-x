@@ -1,0 +1,7 @@
+# Creating Metadata During the Research Life Cycle
+
+Our experiences as data curators and scientists have shown that continuous creation of metadata during the research life cycle greatly benefits data management during a project and when it comes time to publish data when the project concludes.
+
+![](../../static/images/metadata-in-the-research-life-cycle.png)
+
+The [ezEML](https://ezeml.edirepository.org/eml/) and [EMLassemblyline](https://ediorg.github.io/EMLassemblyline/) applications can be used to gather metadata throughout the research life cycle. Collected metadata can be exported and rendered into a human readable form with the [Metadata Previewer](https://portal.edirepository.org/nis/metadataPreviewer.jsp) at any time for immediate use or when later publishing to the EDI repository. Alternatively, the [EDI Metadata Template](https://github.com/EDIorg/MetadataTemplates) allows users to gather metadata in a Microsoft Word (.docx) file but cannot be automatically translated to the EML format required by the EDI Data Repository.

@@ -23,35 +23,32 @@ Tracking citations of a published data package and attributing to a research pro
 
 Data submissions require EML metadata and can be sent in one of two ways:
 
-1. Use the [ezEML](https://docs.google.com/document/d/12sdLhID6SwaKAjU1aT5PAXA-9q1zaq31eNBmPRvYBC0/edit#heading=h.ren642sx8n1f) metadata editor to create EML and submit with the data.
-2. Send EML metadata and data files to the EDI Data Curation Team as email attachments or downloadable links. For more on creating metadata see [here](https://docs.google.com/document/d/12sdLhID6SwaKAjU1aT5PAXA-9q1zaq31eNBmPRvYBC0/edit?usp=sharing).
+1. Use the [ezEML](creating-metadata-for-publication.md#ezeml) metadata editor to create EML and submit with the data.
+2. Send EML metadata and data files to the EDI Data Curation Team as email attachments or downloadable links. For more on creating metadata see [here](creating-metadata-for-publication.md).
 
->Consider integrating the creation of metadata into the [research life cycle](https://docs.google.com/document/d/1qjiIfQGPMOf1F3C96O6E1U5EFnbpC7fyrgdFvgK40H8/edit?usp=sharing) for improved data management and simplified publication.
+>Consider integrating the creation of metadata into the [research life cycle](creating-metadata-during-the-research-lifecycle.md) for improved data management and simplified publication.
 
+## Review
 
-## Review {#review}
-
-Once submitted, a member of the EDI Data Curation Team will provide a proof of the data package and provide support to fine-tune the submission if needed. For more on the review process see [here](https://docs.google.com/document/d/1aNInQhyCylgBuu0mucPSS92haTp3krjFMSracEwMkFs/edit?usp=sharing).
-
-
-## Publication {#publication}
-
-When the author is satisfied with the data package, the data curator assigns a DOI and uploads it to the EDI Data Repository. The data package is now published and discoverable through the EDI Data Portal Search Interface, DataONE Repository Network, and the Google Dataset Search Engine. For more on data discovery see [here](https://docs.google.com/document/d/12qCM3zASjkv1NBB-0Dtsbp4fNa8kUJvWUQI9LY1t4KM/edit?usp=sharing).
+Once submitted, a member of the EDI Data Curation Team will provide a proof of the data package and provide support to fine-tune the submission if needed. For more on the review process see [here](the-review-process.md).
 
 
-## Next steps {#next-steps}
+## Publication
+
+When the author is satisfied with the data package, the data curator assigns a DOI and uploads it to the EDI Data Repository. The data package is now published and discoverable through the EDI Data Portal Search Interface, DataONE Repository Network, and the Google Dataset Search Engine. For more on data discovery see [here](finding-data.md).
+
+
+## Next steps
 
 After publication data authors may want to:
 
-
-
-* Add the data publication to an [ORCID research profile](https://docs.google.com/document/d/1QzyB_A035mIf1yajd5NqKp1dKHDQ5fQza1MYFSWyW6U/edit?usp=sharing). It will automatically be added to a Google Scholar profile.
-* Cite the publication in[ an article](https://docs.google.com/document/d/1YluETdZJozxSf0mGrsHf__Xd8lnUuxxlcJO_OG7tovE/edit?usp=sharing).
-* Add a citing article [to the data package](https://docs.google.com/document/d/1C2YmVe96Nkfj4I4MucGJHlSqas4T1aATnnV5mIBpgFY/edit?usp=sharing).
-* Advertise the publication. Consider mentioning [@EDIgotdata](https://twitter.com/edigotdata) on Twitter or contributing to the [EDI Featured Data Series](https://docs.google.com/document/d/1Qrw5VtKaff7ZjSg76pbv8Sf3Rbkqdf4i7NI4JX42iPw/edit?usp=sharing).
-* [Track citations, downloads, and views](https://docs.google.com/document/d/1y0lPHC0b4d5Zsdwur0hXHH7IH1YiYBEROoo9BAO1sX0/edit?usp=sharing) of the publication.
-* [Report the publication to funders](https://docs.google.com/document/d/1cIYWI36lDx0WV9gl54hczwpikTvOsIsKxyWVxAx9rq8/edit?usp=sharing).
-* [Reuse the published data](https://docs.google.com/document/d/1duKmBrqj4Gzfjgx7SV0-1BD50WEjR08wd-N-Nd7xyVU/edit?usp=sharing).
-* [Create a customized data catalog for a website](https://docs.google.com/document/d/1ma0bKQtnyT1iBWveK64huCadUcwJIhBKHNThrUt4ogU/edit?usp=sharing).
+* Add the data publication to an [ORCID research profile](orcid-id.md). It will automatically be added to a Google Scholar profile.
+* Cite the publication in[ an article](citing-data.md).
+* Add a citing article [to the data package](add-citation.md).
+* Advertise the publication. Consider mentioning [@EDIgotdata](https://twitter.com/edigotdata) on Twitter or contributing to the [EDI Featured Data Series](featured-data.md).
+* [Track citations, downloads, and views](tracking-data-package-use.md) of the publication.
+* [Report the publication to funders](reporting-to-funders.md).
+* [Reuse the published data](resources-for-data-users.md).
+* [Create a customized data catalog for a website](create-a-data-catalog.md).
 * Respond to issues raised by users to improve the quality of the publication.
 * [Update the published data package](https://docs.google.com/document/d/1OfT_XMpTbRhJNSMWMC7wcsNm71m2KOYEibEgW15rUew/edit?usp=sharing) with new metadata or data.
