@@ -34,7 +34,7 @@ The DOI is a globally unique and persistent identifier that unambiguously resolv
 Example DOI: **doi:10.6073/pasta/0cd8caf2eb9959c98b335828628914fb**
 
 
-### Data package identifier {#data-package-identifier}
+### Data package identifier
 
 The data package identifier is used exclusively within the EDI Data Repository to associate the components of a data package. A data package identifier has the form **scope.identifier.revision**, where:
 

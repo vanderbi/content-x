@@ -1,34 +1,38 @@
 # Creating Metadata for a Data Package
 
-Metadata describe the structure and context of other data. They are vital to the discovery and reuse of data, and are a required element of an EDI [data package](https://docs.google.com/document/d/10lbSR34T_Q6qaZoT6ZqxQoUcBRLy34LUokSFeqhtrXw/edit#heading=h.brmxkomw8tom).
+Metadata describe the structure and context of other data. They are vital to the discovery and reuse of data, and are a required element of a [data package](the-data-package.md).
 
-This document introduces the concept of metadata and the Ecological Metadata Language (EML) format, used by the EDI Data Repository. It also details the tools available for creating and editing EML, and provides a brief introduction to EDI best practices for creating EML.
+![](../../static/images/describe.png)
+
+This document introduces the concept of metadata and the Ecological Metadata Language (EML) format, used by the EDI Data Repository. It also details the tools available for creating and editing EML, and provides a brief introduction to best practices for creating EML.
 
 [TOC]
 
 ## What is metadata?
 
-Generally, metadata for original observational data focuses on:
+Generally, metadata for observational data focuses on:
 
 * **WHAT** is the content of the data?
 * **WHO** collected the data?
 * **WHEN** were the data collected?
 * **WHERE** were they collected?
-* **HOW **were the data collected?
+* **HOW** were the data collected?
 
-It is beneficial to begin compiling metadata at the start of the [research life cycle](https://docs.google.com/document/d/1qjiIfQGPMOf1F3C96O6E1U5EFnbpC7fyrgdFvgK40H8/edit) and have a completed metadata for each dataset by the end of it. The information that is supposed to be retained in metadata is prone to quickly degrade if not recorded.
+It is beneficial to begin compiling metadata at the start of [the research life cycle](creating-metadata-during-the-research-lifecycle.md) and have a completed metadata for each dataset by the end of it. The information that is supposed to be retained in metadata is prone to quickly degrade if not recorded.
+
+![](../../static/images/information_loss.png)
 
 Figure and caption from Michener et al. 1997<sup>[2]</sup>: _Example of the normal degradation in information content associated with data and metadata over time ("information entropy"). Accidents or changes in technology (dashed line) may eliminate access to remaining raw data and metadata at any time._
 
 ## The Ecological Metadata Language (EML)
 
-The [Ecological Metadata Language (EML)](https://eml.ecoinformatics.org/) is an XML metadata standard: a metadata schema that is maintained by a group of interested parties and optimized for the ecological and environmental sciences. The EML specification defines the content ("elements"), characteristics ("attributes"), and relationships ("hierarchy") that composes an EML document.<sup>[1]</sup> 
+The [Ecological Metadata Language (EML)](https://eml.ecoinformatics.org/) is an XML metadata standard: a metadata schema that is maintained by a group of interested parties and optimized for the ecological and environmental sciences. The EML specification defines the content ("elements"), characteristics ("attributes"), and relationships ("hierarchy") that composes an EML file.<sup>[1]</sup> 
 
-Some key elements of an EML document are presented in relation to these categories of focus:
+Some key elements of an EML file are presented in relation to these categories of focus:
 
 ### WHAT is the content of the data?
 
-In the EML document, the &lt;title>, &lt;abstract>, and &lt;keywords> elements are used to describe the content of a dataset. Further, &lt;attribute> and &lt;unit**>** elements are used in conjunction with &lt;dataTable>, &lt;spatialVector>, and &lt;otherEntity> elements to describe specific data objects in detail.
+In the EML document, the &lt;title>, &lt;abstract>, and &lt;keywords> elements are used to describe the content of a dataset. Further, &lt;attribute> and &lt;unit> elements are used in conjunction with &lt;dataTable>, &lt;spatialVector>, and &lt;otherEntity> elements to describe specific data objects in detail.
 
 ### WHO collected the data?
 
@@ -46,7 +50,7 @@ The &lt;geographicCoverage> element is used to explicitly describe the location 
 
 ### HOW were the data collected?
 
-The &lt;methods> element should be used to describe how data were collected. The information on 'how' or 'provenance' may be supplemented with data processing scripts and documentation of other data used.
+The &lt;methods> element should be used to describe how data were collected. The information on "how" or "provenance" may be supplemented with data processing scripts and documentation of other data used.
 
 ## EML best practices
 
@@ -62,13 +66,13 @@ Since the EML standard was designed to handle an enormous variety of data scenar
 
 ezEML can be used as a "wizard" leading the user through EML document creation step by step, or it can be used in a more user-directed fashion. Among other things, it supports checking the EML for correctness and completeness, importing EML content from other ezEML documents, uploading data tables and inferring most of their characteristics, and downloading the finished EML document as an EML XML file.
 
-There are a variety of options to help new users learn ezEML. Along with the ezEML [About](https://ezeml.edirepository.org/eml/about) section, an extensive [User Guide](https://ezeml.edirepository.org/eml/user_guide), and a comprehensive [ezEML Overview](https://studio.youtube.com/video/LVRoFmTwvtU/edit) Video, the [ezEML playlist](https://www.youtube.com/playlist?list=PLi1PZkcSXdAKTtpgyHnd8GjtL6kRMMGFR) on the EDI YouTube Channel contains short video demonstrations to help familiarize with specific topics and features in ezEML.
+There are a variety of options to help new users learn ezEML. Along with the ezEML [About](https://ezeml.edirepository.org/eml/about) section, an extensive [User Guide](https://ezeml.edirepository.org/eml/user_guide), and a comprehensive [ezEML Overview video](https://studio.youtube.com/video/LVRoFmTwvtU/edit). The [ezEML playlist](https://www.youtube.com/playlist?list=PLi1PZkcSXdAKTtpgyHnd8GjtL6kRMMGFR) on the EDI YouTube Channel contains short video demonstrations to help familiarize with specific topics and features in ezEML.
 
 ### EMLassemblyline
 
-[EMLassemblyline](https://ediorg.github.io/EMLassemblyline/) (EAL)is an R package that is designed as a toolkit for building EML metadata workflows. While it is optimized for automating recurring publications, it also works well for creating a single EML metadata file.
+[EMLassemblyline](https://ediorg.github.io/EMLassemblyline/) (EAL) is an R package that is designed as a toolkit for building EML metadata workflows. While it is optimized for automating recurring publications, it also works well for creating a single EML metadata file.
 
-The basic use case for EAL, ​​creating and maintaining EML for a dataset, consists of five steps:
+The basic use case for EAL, creating and maintaining EML for a dataset, consists of five steps:
 
 1. [Organize data package](https://ediorg.github.io/EMLassemblyline/articles/organize_data_package.html) contents into a directory structure readable by EAL and according to user preferences.
 2. [Template metadata](https://ediorg.github.io/EMLassemblyline/articles/create_tmplts.html) using functions to automatically extract info from the data.
@@ -84,7 +88,7 @@ EML documents can be updated or edited using the software with which they were c
 
 ### oXygen XML Editor
 
-The [oXygen XML Editor](https://www.oxygenxml.com/) is a commercial product that provides a comprehensive suite of XML authoring and development features.
+The [oXygen XML Editor](https://www.oxygenxml.com/) is a commercial product that provides a comprehensive suite of XML authoring and development features:
 
 * [Academic pricing, or free license](https://www.oxygenxml.com/non_profit_program.html)
 * Schema validation
@@ -93,7 +97,7 @@ The [oXygen XML Editor](https://www.oxygenxml.com/) is a commercial product that
 
 ### jEdit
 
-[jEdit](http://www.jedit.org/) is an open source and free editor providing the basics most users would need.
+[jEdit](http://www.jedit.org/) is an open source and free editor providing the basics most users would need:
 
 * Good general text editor
 * XML plug-in
@@ -105,9 +109,8 @@ The [oXygen XML Editor](https://www.oxygenxml.com/) is a commercial product that
 Additional resources for creating and managing EML metadata:
 
 * [EML](https://docs.ropensci.org/EML/) - An R package for constructing EML. EMLassemblyline is a wrapper to this package.
-* [metapype-eml](https://github.com/PASTAplus/metapype-eml) - A Python package for constructing EML.
+* [metapype-eml](https://github.com/PASTAplus/metapype-eml) - A Python package for constructing EML. ezEML is based off this.
 * [LTER Core-Metabase](https://github.com/lter/LTER-core-metabase) - A PostgreSQL RDB model for research groups managing large volumes of EML metadata.
-
 
 ## References
 

@@ -1,6 +1,6 @@
 # Data Package Pages
 
-A [data package summary page](https://portal.edirepository.org/nis/mapbrowse?scope=edi&identifier=1) (or dataset landing page) and [full metadata page](https://portal.edirepository.org/nis/metadataviewer?packageid=edi.1.1) are generated from the metadata within a data package and deliver the first impression of a data package scope and coverage to data users who are browsing on the EDI Data Portal. They can be discovered by resolving the Digital Object Identifier (DOI) of a data package, or through the Data Portal search feature. 
+A data package [landing page](https://portal.edirepository.org/nis/mapbrowse?scope=edi&identifier=1) (i.e. summary page) and [full metadata page](https://portal.edirepository.org/nis/metadataviewer?packageid=edi.1.1) are generated from the metadata within a data package and deliver the first impression of a data package scope and coverage to data users who are browsing on the EDI Data Portal. They can be discovered by resolving the Digital Object Identifier (DOI) of a data package, or through the Data Portal search feature. 
 
 
 [TOC]
