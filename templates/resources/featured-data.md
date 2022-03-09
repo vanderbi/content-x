@@ -2,4 +2,4 @@
 
 We regularly highlight data packages that stand out with respect to the published data and associated publications, or are used in unique and  exemplary ways, such as teaching and data sharing. Together with the data package creators, we prepare an article that gives some background about the data and their use. We tweet about the featured data packages and mention them in our newsletter. 
 
-Please contact the EDI Data Curation Team if you would like to have your data package featured. Please include a brief explanation of what makes the data special.
+Please [contact us](../support/contact-us.md) if you would like to have your data package featured. Please include a brief explanation of what makes the data special.

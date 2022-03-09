@@ -4,9 +4,7 @@ Managing intellectual property rights is an important part of the EDI Data Repos
 
 [TOC]
 
-
-
-## The basics of licensing {#the-basics-of-licensing}
+## The basics of licensing
 
 Datasets deposited in a repository can be thought of as having two levels, content and organization. The content level may include raw observational data, photographs, recordings of bird calls, or model code. Some of these data products, such as photographs whose creation involved discretionary decisions made by the author, may be copyrighted. This means they are subject to_ _a form of intellectual property law that protects original works of authorship so that the author has exclusive rights to reproduce, publicly display, and publicly disseminate their work. Most raw data and metadata are "facts", however, and facts cannot be copyrighted. Raw observational data have no copyright protections under U.S. law. Thus, the data objects in the content level of a dataset in the EDI repository may or may not be protected by copyright.
 
@@ -19,30 +17,26 @@ Creative Commons is a non-profit global entity that gives organizations and peop
 Creative Commons offers six copyright licenses and one copyright waiver. 
 
 
-## Recommended licenses {#recommended-licenses}
+## Recommended licenses
 
-CC0: This waiver indicates that a dataset is free from copyright and dedicated to the public domain. CC0 allows reusers to distribute, adapt, and build upon the dataset with no restrictions.
+**CC0**: This waiver indicates that a dataset is free from copyright and dedicated to the public domain. CC0 allows reusers to distribute, adapt, and build upon the dataset with no restrictions.
 
-CC-By: This is the most open license from the Creative Commons. It allows a dataset user to distribute, adapt, and build upon the dataset as long as the original creator receives attribution. 
+**CC-By**: This is the most open license from the Creative Commons. It allows a dataset user to distribute, adapt, and build upon the dataset as long as the original creator receives attribution. 
 
 CC-By is preferred by many in academia because it encourages data users to give credit to the data creators, even if there is no copyrightable content in the dataset. CC0 is the better choice, however, because it avoids the problem of "attribute stacking" where a derivative work must acknowledge all contributors. A dataset that combines data from 100 other datasets would need to reference all those datasets if they all require acknowledgement, an untenable practice in some cases. Using CC-By rather than CC0 may place an unnecessary burden on downstream data users.
 
-
-## Primary data {#primary-data}
+## Primary data
 
 If you publish raw observational or experimental data in EDI, you are encouraged to select the CC0 waiver. You may, however, use any other license that you wish, including one that you author yourself. 
 
-
-## Secondary data {#secondary-data}
+## Secondary data
 
 Licensing data that contains secondary or 'reused' data - As data reuse and the combining of new and secondary data becomes more common, reusers are needing to apply licenses to these 'derived' datasets. The type of license you choose for such a dataset will depend on (a) the amount or proportion of secondary data in the 'new' dataset, and (b) the terms of the original license under which those secondary data were acquired. For example, whether the original license required that new versions of the data be licensed under the same terms.
 
-
-## Enforcement {#enforcement}
+## Enforcement
 
 EDI does not enforce licenses. This is more in the domain of journals, which are beginning to do this.
 
-
-## Resources {#resources}
+## Resources
 
 Carroll MW (2015) Sharing Research Data and Intellectual Property Law: A Primer. PLoS Biol 13(8): e1002235. https://doi.org/10.1371/journal.pbio.1002235

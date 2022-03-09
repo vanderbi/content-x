@@ -1,30 +1,23 @@
 # Partners and Affiliations
 
-
 [TOC]
 
-
-
-## Partners {#partners}
+## Partners
 
 We are proud to be in partnership with the following organizations:
 
-
-## Affiliations {#affiliations}
+## Affiliations
 
 We are proud to be affiliated with the following organizations:
 
-
-## Search Engines {#search-engines}
+## Search Engines
 
 Data published in the EDI Data Repository can be searched at:
 
-
-## Registered {#registered}
+## Registered
 
 We are proud to be registered with:
 
-
-## Users {#users}
+## Users
 
 We are proud to support:
