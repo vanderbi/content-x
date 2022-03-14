@@ -2,7 +2,10 @@
 
 Along with ensuring proper attribution is paid to the original data author, citing data in publications and other published data increases findability, encourages data reuse, and enables reliable tracking of data citation metrics.<sup>[1]</sup>
 
-![](../../static/images/data-citation.png)
+<p style="text-align: left">
+    <img alt="publish" src="/static/images/data-citation.png" style="max-height: 10vmin;" height="180"/>
+</p>
+
 Components of a data citation: (1) Data Author or Creator, (2) Public Release Date, (3) Title, (4) Version, (5) Repository, (6) Persistent Identifier (DOI), (7) Access Date.
 
 [TOC]
@@ -11,9 +14,11 @@ Components of a data citation: (1) Data Author or Creator, (2) Public Release Da
 
 ### Copy the citation from a data package landing page
 
-Every data package [landing page](data-package-pages.md) provides a citation, formatted to [community adopted practices](https://doi.org/10.6084/m9.figshare.8441816), that can be easily copied into a document.
+Every data package [landing page](/templates/resources/data-package-pages.md) provides a citation, formatted to [community adopted practices](https://doi.org/10.6084/m9.figshare.8441816), that can be easily copied into a document.
 
-![](../../static/images/copy-citation.png)
+<p style="text-align: left">
+    <img alt="publish" src="/static/images/copy-citation.png" style="max-height: 10vmin;" height="120"/>
+</p>
 
 ### Browser plugins
 
@@ -27,7 +32,7 @@ Watch a [video walkthrough](https://www.youtube.com/watch?v=7GppJUxCJIU) demonst
 
 ## Citing in a derived data package
 
-For citing data in a data package derived from one or more source data packages, see the page on [provenance metadata](provenance-metadata.md).
+For citing data in a data package derived from one or more source data packages, see the page on [provenance metadata](/templates/resources/provenance-metadata.md).
 
 ## References
 
