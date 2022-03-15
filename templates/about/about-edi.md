@@ -19,49 +19,160 @@ EDI is currently funded through grants from the National Science Foundation's (N
 
 ## Team
 
-Corinna Gries is Principal Investigator of EDI and is based at the University of Wisconsin. Corinna leads the data curation, outreach and training activities of EDI and can be reached at [cgries@wisc.edu](mailto:cgries@wisc.edu).
-
-![](../../static/images/corinna.jpg)
-
-Mark Servilla is Principal Investigator of EDI and is based at the University of New Mexico. Mark leads the development of the PASTA data repository software and can be reached at [mark.servilla@gmail.com](mailto:mark.servilla@gmail.com).
-
-![](../../static/images/mark.jpg)
-
-Robert B. Waide is an EDI co-PI and involved in project level outreach. He is based at the University of New Mexico and can be reached at [rbwaide@unm.edu](mailto:rbwaide@unm.edu).
-
-![](../../static/images/bob.jpg)
-
-Paul Hanson is an EDI co-PI and involved in project level outreach. He is based at the University of Wisconsin-Madison and can be reached at [pchanson@wisc.edu](mailto:pchanson@wisc.edu).
-
-![](../../static/images/paul.jpg)
-
-Margaret O'Brien assists in the design and development of efficient means to assure data submission by community members based on needs assessments and community science priorities. Margaret is based at the University of California at Santa Barbara and may be reached at [margaret.obrien@ucsb.edu](mailto:margaret.obrien@ucsb.edu).
-
-![](../../static/images/margaret.jpg)
-
-Kristin Vanderbilt supports the Data Management as a Service activity. She is based at the University of New Mexico. Kristin can be reached at [krvander@fiu.edu](mailto:krvander@fiu.edu).
-
-![](../../static/images/kristin.jpg)
-
-James Brunt provides system administration and data management services in support of the EDI data repository. James is based at the University of New Mexico and may be reached at [jbrunt@unm.edu](mailto:jbrunt@unm.edu).
-
-![](../../static/images/james.jpg)
-
-Susanne Grossman-Clarke is EDI's Training and Outreach Coordinator. She works through the University of Wisconsin-Madison and can be reached at [grossmanclar@wisc.edu](mailto:grossmanclar@wisc.edu).
-
-![](../../static/images/susanne.jpg)
-
-Jon Ide is a software developer for EDI. He's based in Madison, Wisconsin and can be reached at [jride@wisc.edu](mailto:jride@wisc.edu).
-
-![](../../static/images/jon.jpg)
-
-Colin Smith is a part of EDI's data curation team and works with data providers to clean, document, and submit their data to the EDI repository. He also works with the EDI community to develop data management software tools and helps run workshops and training events. Colin works through the University of Wisconsin-Madison. He can be reached at [colin.smith@wisc.edu](mailto:colin.smith@wisc.edu).
-
-![](../../static/images/colin.jpg)
-
-Kyle Zollo-Venecek is a part of EDI's data curation team and works with data providers to clean, document, and submit their data to the EDI repository. Kyle works through the University of Wisconsin-Madison and can be reached at [kylezollo@gmail.com](mailto:kylezollo@gmail.com).
-
-![](../../static/images/kyle.png)
+<div class="person_row">
+    <div class="person_col">
+        <b>Corinna Gries</b> is Principal Investigator of EDI and is based at the University of Wisconsin.
+        Corinna leads the data curation, outreach and training activities of EDI and can be reached
+        at
+        <a href="mailto:cgries@wisc.edu">
+            cgries@wisc.edu
+        </a>
+        .
+    </div>
+    <div class="person_col">
+        <img alt="Corinna Gries" src="/static/images/corinna.jpg"/>
+    </div>
+</div>
+<div class="person_row">
+    <div class="person_col">
+        <b>Mark Servilla</b> is Principal Investigator of EDI and is based at the University of New Mexico.
+        Mark leads the development of the PASTA data repository software and can be reached at
+        <a href="mailto:mark.servilla@gmail.com">
+            mark.servilla@gmail.com
+        </a>
+        .
+    </div>
+    <div class="person_col">
+        <img alt="Mark Servilla" src="/static/images/mark.jpg"/>
+    </div>
+</div>
+<div class="person_row">
+    <div class="person_col">
+        <b>Kristin Vanderbilt</b> is an EDI co-PI and supports the Data Management as a Service activity. She
+        is based at the University of New Mexico. Kristin can be reached at
+        <a href="mailto:krvander@fiu.edu">
+            krvander@fiu.edu
+        </a>
+        .
+    </div>
+    <div class="person_col">
+        <img alt="Kristin Vanderbilt" src="/static/images/kristin.jpg"/>
+    </div>
+</div>
+<div class="person_row">
+    <div class="person_col">
+        <b>Paul Hanson</b> is an EDI co-PI and involved in project level outreach. He is based at
+        the University of Wisconsin-Madison and can be reached at
+        <a href="mailto:pchanson@wisc.edu">
+            pchanson@wisc.edu
+        </a>
+        .
+    </div>
+    <div class="person_col">
+        <img alt="Paul Hanson" src="/static/images/paul.jpg"/>
+    </div>
+</div>
+<div class="person_row">
+    <div class="person_col">
+        <b>Margaret O'Brien</b> assists in the design and development of efficient means to
+        assure data submission by community members based on needs assessments and community science
+        priorities. Margaret is based at the University of California at Santa Barbara and may be
+        reached at
+        <a href="mailto:margaret.obrien@ucsb.edu">
+            margaret.obrien@ucsb.edu
+        </a>
+        .
+    </div>
+    <div class="person_col">
+        <img alt="Margaret O'Brien" src="/static/images/margaret.jpg"/>
+    </div>
+</div>
+<div class="person_row">
+    <div class="person_col">
+        <b>Robert B. Waide</b> is involved in project level outreach. He is based at
+        the University of New Mexico and can be reached at
+        <a href="mailto:rbwaide@unm.edu">
+            rbwaide@unm.edu
+        </a>
+        .
+    </div>
+    <div class="person_col">
+        <img alt="Robert Waide" src="/static/images/bob.jpg"/>
+    </div>
+</div>
+<div class="person_row">
+    <div class="person_col">
+        <b>James Brunt</b> provides system administration and data management services
+        in support of the EDI data repository. James is based at the University of New Mexico
+        and may be reached at
+        <a href="mailto:jbrunt@unm.edu">
+            jbrunt@unm.edu
+        </a>
+        .
+    </div>
+    <div class="person_col">
+        <img alt="James Brunt" src="/static/images/james.jpg"/>
+    </div>
+</div>
+<div class="person_row">
+    <div class="person_col">
+        <b>Susanne Grossman-Clarke</b> is EDI's Training and Outreach Coordinator.
+        She works through the University of Wisconsin-Madison and can be reached at
+        <a href="mailto:grossmanclar@wisc.edu">
+            grossmanclar@wisc.edu
+        </a>
+        .
+    </div>
+    <div class="person_col">
+        <img alt="Susanne Grossman-Clarke"
+             src="/static/images/susanne.jpg"/>
+    </div>
+</div>
+<div class="person_row">
+    <div class="person_col">
+        <b>Jon Ide</b> is a software developer for EDI. He's based in Madison,
+        Wisconsin and can be reached at
+        <a href="mailto:jride@wisc.edu">
+            jride@wisc.edu
+        </a>
+        .
+    </div>
+    <div class="person_col">
+        <img alt="Jon Ide" src="/static/images/jon.jpg"/>
+    </div>
+</div>
+<div class="person_row">
+    <div class="person_col">
+        <b>Colin Smith</b> is a part of EDI's data curation team and works
+        with data providers to clean, document, and submit their data to the EDI
+        repository. He also works with the EDI community to develop data management
+        software tools and helps run workshops and training events. Colin works
+        through the University of Wisconsin-Madison. He can be reached at
+        <a href="mailto:colin.smith@wisc.edu">
+            colin.smith@wisc.edu
+        </a>
+        .
+    </div>
+    <div class="person_col">
+        <img alt="Colin Smith" src="/static/images/colin.jpg"/>
+    </div>
+</div>
+<div class="person_row">
+    <div class="person_col">
+        <b>Kyle Zollo-Venecek</b> is a part of EDI's data curation team
+        and works with data providers to clean, document, and submit their data to
+        the EDI repository. Kyle works through the University of Wisconsin-Madison
+        and can be reached at
+        <a href="mailto:kylezollo@gmail.com">
+            kylezollo@gmail.com
+        </a>
+        .
+    </div>
+    <div class="person_col">
+        <img alt="Kyle Zollo-Venecek"
+             src="/static/images/kyle.png"/>
+    </div>
+</div>
 
 
 ## Repository infrastructure
@@ -78,7 +189,7 @@ EDI employs industry standard protocols to ensure that all scientific data are w
 
 ### Standards for data, metadata, and software
 
-EDI's data repository accepts data in any digital format. All science data curated by EDI is required to be described and documented with the [Ecological Metadata Language (EML)](../resources/creating-metadata-for-publication.md#the-ecological-metadata-language-eml) standard. The data repository supports versions 2.1.0, 2.1.1, and 2.2.0 of EML. EML is a semantically rich science metadata standard that is actively supported as an open source project.
+EDI's data repository accepts data in any digital format. All science data curated by EDI is required to be described and documented with the [Ecological Metadata Language (EML)](/resources/creating-metadata-for-publication#the-ecological-metadata-language-eml) standard. The data repository supports versions 2.1.0, 2.1.1, and 2.2.0 of EML. EML is a semantically rich science metadata standard that is actively supported as an open source project.
 
 EDI-developed software products fall into two categories: the PASTA+ software stack for the data repository and software in support of general data management practices. All EDI software development follows principles utilized by open source projects, including frequent and incremental submittals of written code, documentation, and architectural diagrams to a recognized software repository. EDI uses two separate GitHub repositories for software management and control: one for PASTA+ software ([PASTAplus](https://github.com/PASTAplus)) and another for data management support tools ([EDIorg](https://github.com/EDIorg)).
 
