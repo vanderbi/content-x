@@ -109,7 +109,7 @@ Data flags are useful in communicating value specific information from quality c
 
 ### Data processing levels
 
-Data can be processed at progressive levels and published as separate but related data packages. For example, the raw or minimally processed data can be published as a level-0 data package, and a level-1 version, with more processing applied, published as another data package. This process repeats for each new level with [provenance metadata](provenance-metadata.md) describing the relationships among the levels.
+Data can be processed at progressive levels and published as separate but related data packages. For example, the raw or minimally processed data can be published as a level-0 data package, and a level-1 version, with more processing applied, published as another data package. This process repeats for each new level with [provenance metadata](/templates/resources/provenance-metadata.md) describing the relationships among the levels.
 
 <img src="/static/images/data-processing-levels.png" width="75%"> 
 
@@ -124,4 +124,4 @@ Data quality improvement is an ongoing process with the recurring steps:
 
 <img src="/static/images/data-quality-management.png" width="25%"> 
 
-[New versions of a data package](updating-a-data-package.md) are clearly marked with an incrementing version number and should be accompanied by release notes in the metadata to communicate what has changed and why (e.g. implementation of new tests to improve coverage).
+[New versions of a data package](/templates/resources/updating-a-data-package.md) are clearly marked with an incrementing version number and should be accompanied by release notes in the metadata to communicate what has changed and why (e.g. implementation of new tests to improve coverage).

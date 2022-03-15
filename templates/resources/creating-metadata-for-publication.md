@@ -1,6 +1,6 @@
 # Creating Metadata for a Data Package
 
-Metadata describe the structure and context of other data. They are vital to the discovery and reuse of data, and are a required element of a [data package](the-data-package.md).
+Metadata describe the structure and context of other data. They are vital to the discovery and reuse of data, and are a required element of a [data package](/templates/resources/the-data-package.md).
 
 <img src="/static/images/describe.png" width="5%"> 
 
@@ -18,7 +18,7 @@ Generally, metadata for observational data focuses on:
 * **WHERE** were they collected?
 * **HOW** were the data collected?
 
-It is beneficial to begin compiling metadata at the start of [the research life cycle](creating-metadata-during-the-research-lifecycle.md) and have a completed metadata for each dataset by the end of it. The information that is supposed to be retained in metadata is prone to quickly degrade if not recorded.
+It is beneficial to begin compiling metadata at the start of [the research life cycle](/templates/resources/creating-metadata-during-the-research-lifecycle.md) and have a completed metadata for each dataset by the end of it. The information that is supposed to be retained in metadata is prone to quickly degrade if not recorded.
 
 <img src="/static/images/information_loss.png" width="55%"> 
 

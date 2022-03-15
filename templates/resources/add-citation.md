@@ -10,7 +10,7 @@ While EDI takes measures to cross reference new articles to cited data packages,
 
 ## Required information
 
-A journal citation must contain a [data package identifier](the-data-package.md#data-package-identifier), an article identifier (either a DOI or URL), and a description of the relationship between the article and data package. Including the title of the article and journal is recommended.
+A journal citation must contain a [data package identifier](/templates/resources/the-data-package.md#data-package-identifier), an article identifier (either a DOI or URL), and a description of the relationship between the article and data package. Including the title of the article and journal is recommended.
 
 ### Relation types
 

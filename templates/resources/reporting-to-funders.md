@@ -6,11 +6,11 @@ Research funders often require project data to be archived in a trustworthy repo
 
 ## Listing data publications
 
-A list of recent publications from a research project/site and a full list of publications can be generated with the [Upload Report](the-edi-dashboard.md#upload-report) and [Site Report](the-edi-dashboard.md#site-report) services, respectively. Currently, these services are only available to LTER projects but will be updated to support all projects/sites in the future. In the meantime, generating a list of data publications requires navigating to each [data package landing page](data-package-pages.md) and copying the relevant information into the body of a report.
+A list of recent publications from a research project/site and a full list of publications can be generated with the [Upload Report](/templates/resources/the-edi-dashboard.md#upload-report) and [Site Report](/templates/resources/the-edi-dashboard.md#site-report) services, respectively. Currently, these services are only available to LTER projects but will be updated to support all projects/sites in the future. In the meantime, generating a list of data publications requires navigating to each [data package landing page](/templates/resources/data-package-pages.md) and copying the relevant information into the body of a report.
 
 ## Impact of data publications
 
-See [Tracking Data Package Use](tracking-data-package-use.md) for services related to listing the views, downloads, and citations of published data packages.
+See [Tracking Data Package Use](/templates/resources/tracking-data-package-use.md) for services related to listing the views, downloads, and citations of published data packages.
 
 ## Reporting to NSF
 

@@ -1,12 +1,12 @@
 # Publishing a Data Package
 
-Publishing a [data package](the-data-package.md) in the EDI Data Repository can be done manually via the EDI Data Portal, or programmatically using the EDIutils R package or the REST API. Across these three methods, the same general pattern is always followed: login, reserve a data package identifier, evaluate the data package, and publish the data package.
+Publishing a [data package](/templates/resources/the-data-package.md) in the EDI Data Repository can be done manually via the EDI Data Portal, or programmatically using the EDIutils R package or the REST API. Across these three methods, the same general pattern is always followed: login, reserve a data package identifier, evaluate the data package, and publish the data package.
 
 <img src="/static/images/publish.png" width="8%">
 
->We recommend [creating a test version](repository-environments.md) of a data package for review before publishing the final version.
+>We recommend [creating a test version](/templates/resources/repository-environments.md) of a data package for review before publishing the final version.
 
->Uploading a data package to the EDI Data Repository requires an [EDI account](information-manager-quickstart.md#sign-up-for-an-edi-account). Other methods of authentication (e.g. Google, ORCID, GitHub) do not allow upload. Most data authors don't upload directly to the EDI Repository but rather publish via the EDI Curation Team.
+>Uploading a data package to the EDI Data Repository requires an [EDI account](/templates/resources/information-manager-quickstart.md#sign-up-for-an-edi-account). Other methods of authentication (e.g. Google, ORCID, GitHub) do not allow upload. Most data authors don't upload directly to the EDI Repository but rather publish via the EDI Curation Team.
 
 [TOC]
 
@@ -36,7 +36,7 @@ Navigate to the **Evaluate/Upload Data Packages** page:
 <img src="/static/images/eval-upload-dropdown-portal.png" width="80%">
 
 1. **Choose File** - Browse and select the EML file to be evaluated
-2. Unless every data object in the EML file is associated with [static data links](uploading-with-static-data-links.md), select the checkbox next to **Manually upload data…** to allow manual upload.
+2. Unless every data object in the EML file is associated with [static data links](/templates/resources/uploading-with-static-data-links.md), select the checkbox next to **Manually upload data…** to allow manual upload.
 
 <img src="/static/images/evaluate-manual-upload.png" width="80%">
 
@@ -44,14 +44,14 @@ Navigate to the **Evaluate/Upload Data Packages** page:
 
 <img src="/static/images/evaluate-manual-upload-page.png" width="95%">
 
->Be aware that the length of the evaluation process increases with the size of the data being evaluated. Once the process has begun, the browser window can be closed without interrupting the evaluation. Use the EDI Dashboard [PASTA is Working On](https://dashboard.edirepository.org/dashboard/pasta/render_working_on) feature to see when evaluation has completed. The [evaluation report](evaluating-a-data-package.md#interpreting-the-evaluation-report) can be viewed from the **View Evaluate/Upload Results** page.
+>Be aware that the length of the evaluation process increases with the size of the data being evaluated. Once the process has begun, the browser window can be closed without interrupting the evaluation. Use the EDI Dashboard [PASTA is Working On](https://dashboard.edirepository.org/dashboard/pasta/render_working_on) feature to see when evaluation has completed. The [evaluation report](/templates/resources/evaluating-a-data-package.md#interpreting-the-evaluation-report) can be viewed from the **View Evaluate/Upload Results** page.
 
 ### Publishing the data package
 
 Navigate to the **Evaluate/Upload Data Packages** 
 
 1. **Choose File** - Browse and select the EML file to be uploaded.
-2. Unless every data object in the EML file is associated with [static data links](uploading-with-static-data-links.md), select the checkbox next to **Manually upload data…** to allow manual upload.
+2. Unless every data object in the EML file is associated with [static data links](/templates/resources/uploading-with-static-data-links.md), select the checkbox next to **Manually upload data…** to allow manual upload.
 
 <img src="/static/images/upload-manual-upload.png" width="80%">
 
@@ -60,17 +60,17 @@ Navigate to the **Evaluate/Upload Data Packages**
 <img src="/static/images/confirm-upload.png" width="45%">
 
 4. Select files for manual upload and click the **Upload** button.
-5. At the **Evaluate/Upload Results** page, if the upload was successful, the data package identifier will be linked to the newly published data package [landing page](data-package-pages.md).
+5. At the **Evaluate/Upload Results** page, if the upload was successful, the data package identifier will be linked to the newly published data package [landing page](/templates/resources/data-package-pages.md).
 
 <img src="/static/images/successful-upload.png" width="85%">
 
->Be aware that the length of the evaluation process increases with the size of the data being evaluated. Once the process has begun, the browser window can be closed without interrupting the evaluation. Use the EDI Dashboard [PASTA is Working On](https://dashboard.edirepository.org/dashboard/pasta/render_working_on) feature to see when evaluation has completed. The [evaluation report](evaluating-a-data-package.md#interpreting-the-evaluation-report) can be viewed from the **View Evaluate/Upload Results** page.
+>Be aware that the length of the evaluation process increases with the size of the data being evaluated. Once the process has begun, the browser window can be closed without interrupting the evaluation. Use the EDI Dashboard [PASTA is Working On](https://dashboard.edirepository.org/dashboard/pasta/render_working_on) feature to see when evaluation has completed. The [evaluation report](/templates/resources/evaluating-a-data-package.md#interpreting-the-evaluation-report) can be viewed from the **View Evaluate/Upload Results** page.
 
 ## EDIutils
 
 Publishing with the [EDIutils](https://ediorg.github.io/EDIutils/index.html) R package allows each step of the process to be executed from an R environment. For a language-agnostic solution, see the REST API documentation for [Create Reservation](https://pastaplus-core.readthedocs.io/en/latest/doc_tree/pasta_api/data_package_manager_api.html#create-reservation), [Evaluate Data Package](https://pastaplus-core.readthedocs.io/en/latest/doc_tree/pasta_api/data_package_manager_api.html#evaluate-data-package), and [Create Data Package](https://pastaplus-core.readthedocs.io/en/latest/doc_tree/pasta_api/data_package_manager_api.html#create-data-package).
 
->To publish with EDIutils all data objects must be associated with [static data links](uploading-with-static-data-links.md).
+>To publish with EDIutils all data objects must be associated with [static data links](/templates/resources/uploading-with-static-data-links.md).
 
 ### Login
 
@@ -84,7 +84,7 @@ Use the [`create_reservation()`](https://ediorg.github.io/EDIutils/reference/cre
 
 ### Evaluating the data package
 
-Use the [`evaluate_data_package()`](https://ediorg.github.io/EDIutils/reference/evaluate_data_package.html) function to begin the evaluation process. See [evaluating a data package](evaluating-a-data-package.md#evaluating-the-data-package) for details.
+Use the [`evaluate_data_package()`](https://ediorg.github.io/EDIutils/reference/evaluate_data_package.html) function to begin the evaluation process. See [evaluating a data package](/templates/resources/evaluating-a-data-package.md#evaluating-the-data-package) for details.
 
 
 ### Publishing the data package

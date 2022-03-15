@@ -14,14 +14,14 @@ Acknowledgment of submission will be sent once it has been assigned to an EDI Da
 
 ## Metadata evaluation
 
-The [metadata evaluation](evaluating-a-data-package.md) ensures the data are accurately described. The data curator will perform this analysis and report back issues along with potential solutions, and may offer general suggestions for improving the quality of the data submission.
+The [metadata evaluation](/templates/resources/evaluating-a-data-package.md) ensures the data are accurately described. The data curator will perform this analysis and report back issues along with potential solutions, and may offer general suggestions for improving the quality of the data submission.
 
 
 ## Page proofs
 
-A proof of the data submission will be provided along with the quality check report. Review the contents thoroughly and share the proof with co-authors if necessary. For a detailed walk through of the proof, see [here](data-package-pages.md).
+A proof of the data submission will be provided along with the quality check report. Review the contents thoroughly and share the proof with co-authors if necessary. For a detailed walk through of the proof, see [here](/templates/resources/data-package-pages.md).
 
->Tip: Use the [EDI Data Explorer (DeX)](data-exploration.md#data-explorer-dex) to identify potential issues in data values before publishing. A link to DeX is provided next to data tables listed in the resources section of the [data package landing page](data-package-pages.md).
+>Tip: Use the [EDI Data Explorer (DeX)](/templates/resources/data-exploration.md#data-explorer-dex) to identify potential issues in data values before publishing. A link to DeX is provided next to data tables listed in the resources section of the [data package landing page](/templates/resources/data-package-pages.md).
 
 ## Revise
 
@@ -35,4 +35,4 @@ Submit the revision. The data curator will rerun the metadata evaluation check, 
 
 When happy with the proof, let the curator know that the data submission is ready to be published. The curator will assign a DOI and publish the data package.
 
->To facilitate citation and reproducible research, any future changes to a published data package will be archived as a revision and assigned a new DOI. For more information see [Updating a Data Package](updating-a-data-package.md).
+>To facilitate citation and reproducible research, any future changes to a published data package will be archived as a revision and assigned a new DOI. For more information see [Updating a Data Package](/templates/resources/updating-a-data-package.md).

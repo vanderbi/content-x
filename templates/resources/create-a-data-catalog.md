@@ -4,7 +4,7 @@ Local data catalogs allow researchers, projects, and organizations to present th
 
 EDI provides two prebuilt catalogs which can be easily embedded in an existing website. These catalogs are a searchable list of all the data packages belonging to a group and links back to the newest version of the data package in the EDI Data Portal. More advanced and customized catalogs can be implemented using the REST API.
 
-![](../../static/images/data-catalogs.png)
+![](/static/images/data-catalogs.png)
 
 [TOC]
 
@@ -21,7 +21,7 @@ To build this catalog, follow instructions in the [ezCatalog GitHub](https://git
 
 ## Catalogs for OBFS members
 
-[The OBFS Data Catalogs service](https://vocab.lternet.edu/ezcatalog/OBFS/) provides members of the Organization of Biological Field Station a way to create a searchable data catalog within minutes. The catalog includes data packages published to the EDI Data Repository and falling within a 10 km radius of the field station. The returned list of data packages can be modified by [contacting EDI](../support/contact-us.md).
+[The OBFS Data Catalogs service](https://vocab.lternet.edu/ezcatalog/OBFS/) provides members of the Organization of Biological Field Station a way to create a searchable data catalog within minutes. The catalog includes data packages published to the EDI Data Repository and falling within a 10 km radius of the field station. The returned list of data packages can be modified by [contacting EDI](/templates/support/contact-us.md).
 
 To build this catalog:
 

@@ -1,6 +1,6 @@
 # Designing a Data Package
 
-When designing a [data package](the-data-package.md), it is important to consider multiple factors in order to satisfy local or community research needs. Considerations such as whether data should be published as a single package or in a set of related packages must be made to ultimately create a data package that is optimized for discovery and reuse.
+When designing a [data package](/templates/resources/the-data-package.md), it is important to consider multiple factors in order to satisfy local or community research needs. Considerations such as whether data should be published as a single package or in a set of related packages must be made to ultimately create a data package that is optimized for discovery and reuse.
 
 [TOC]
 
@@ -14,7 +14,7 @@ If publishing data in support of a manuscript, then include the data and process
 
 ### Duplicated data
 
-Have these exact data been published elsewhere? If so, then don't republish unless [the duplication is warranted](https://ediorg.github.io/data-package-best-practices/datapackage-design/data-in-other-repositories.html). Duplicates create maintenance issues for data managers and confusion for users. If data published elsewhere is used to create a derived dataset, reference these data via [provenance metadata](provenance-metadata.md). Derived data are not exact copies and can be archived. Mutable data licensed under the public domain can be archived. When in doubt, consult the data authors before republishing.
+Have these exact data been published elsewhere? If so, then don't republish unless [the duplication is warranted](https://ediorg.github.io/data-package-best-practices/datapackage-design/data-in-other-repositories.html). Duplicates create maintenance issues for data managers and confusion for users. If data published elsewhere is used to create a derived dataset, reference these data via [provenance metadata](/templates/resources/provenance-metadata.md). Derived data are not exact copies and can be archived. Mutable data licensed under the public domain can be archived. When in doubt, consult the data authors before republishing.
 
 <img src="/static/images/organize-duplication.png" width="25%"> 
 
@@ -44,7 +44,7 @@ Some "ancillary" or background data or information may be critical in understand
 
 ### Size of data files
 
-Size is important for up- and download. Consider breaking the data up into smaller manageable units. There is a soft limit of 500 MB when uploading via the EDI Data Portal (which can be avoided by data managers with an EDI account and [uploading with static data links](uploading-with-static-data-links.md)), and a hard limit of 100 GB. Please [contact us](../support/contact-us.md) if your data publication will exceed either of these limits and we will help you find a solution.
+Size is important for up- and download. Consider breaking the data up into smaller manageable units. There is a soft limit of 500 MB when uploading via the EDI Data Portal (which can be avoided by data managers with an EDI account and [uploading with static data links](/templates/resources/uploading-with-static-data-links.md)), and a hard limit of 100 GB. Please [contact us](/templates/support/contact-us.md) if your data publication will exceed either of these limits and we will help you find a solution.
 
 <img src="/static/images/organize-volume.png" width="25%"> 
 
@@ -56,6 +56,6 @@ For data collected at high sampling frequencies, consider providing down-sampled
 
 ### Level of processing
 
-Always try to archive the "minimally processed" version of the data so future users can apply methods appropriate to their research. However, if a lot of effort has gone into formatting and cleaning data, those should be published as well, either in the same package or separately with [provenance metadata](provenance-metadata.md) to make the relationship clear between them.
+Always try to archive the "minimally processed" version of the data so future users can apply methods appropriate to their research. However, if a lot of effort has gone into formatting and cleaning data, those should be published as well, either in the same package or separately with [provenance metadata](/templates/resources/provenance-metadata.md) to make the relationship clear between them.
 
 <img src="/static/images/data-processing-levels.png" width="75%"> 

@@ -26,14 +26,14 @@ To create provenance metadata using [ezEML](https://ezeml.edirepository.org/eml/
 To create provenance metadata using [EMLassemblyline](https://ediorg.github.io/EMLassemblyline/):
 
 1. Run the [`template_provenance()`](https://ediorg.github.io/EMLassemblyline/reference/template_provenance.html) function to create an empty provenance template.
-2. For data sources originating from the EDI Data Repository, populate the template **dataPackageID** field with the EDI [data package identifier](the-data-package.md#data-package-identifier) and specify "EDI" in the **systemID** field. Use the other fields of this template when creating provenance for data sources external to EDI Repository.
+2. For data sources originating from the EDI Data Repository, populate the template **dataPackageID** field with the EDI [data package identifier](/templates/resources/the-data-package.md#data-package-identifier) and specify "EDI" in the **systemID** field. Use the other fields of this template when creating provenance for data sources external to EDI Repository.
 3. Run the [`make_eml()`](https://ediorg.github.io/EMLassemblyline/reference/make_eml.html) function to add the provenance metadata to the EML for the derived data.
 
 ### EDI Data Portal
 
 To create provenance metadata from the [EDI Data Portal](https://portal.edirepository.org/nis/home.jsp):
 
-1. Navigate to the **Provenance** section at the bottom of a data package [landing page](data-package-pages.md). This section displays provenance information and includes a link to generate provenance metadata for the data package.
+1. Navigate to the **Provenance** section at the bottom of a data package [landing page](/templates/resources/data-package-pages.md). This section displays provenance information and includes a link to generate provenance metadata for the data package.
 
 <img src="/static/images/provenance-portal2.png" width="85%">
 
@@ -50,7 +50,7 @@ See [Editing EML](https://docs.google.com/document/d/12sdLhID6SwaKAjU1aT5PAXA-9q
 
 To create provenance metadata from the [EDIutils](https://ediorg.github.io/EDIutils/) R Package:
 
-1. Run the [`get_provenance_metadata()`](https://ediorg.github.io/EDIutils/reference/get_provenance_metadata.html) function with the corresponding source [data package identifier](the-data-package.md#data-package-identifier).
+1. Run the [`get_provenance_metadata()`](https://ediorg.github.io/EDIutils/reference/get_provenance_metadata.html) function with the corresponding source [data package identifier](/templates/resources/the-data-package.md#data-package-identifier).
 2. Add the returned &lt;methodStep> element into an EML R object of a derived data package or write it to file for other use cases.
 
 For a language-agnostic solution, see the REST API documentation for [Get Provenance Metadata](https://pastaplus-core.readthedocs.io/en/latest/doc_tree/pasta_api/data_package_manager_api.html#get-provenance-metadata).

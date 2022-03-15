@@ -22,7 +22,7 @@ The date that the data package was published.
 
 ### Citation
 
-The suggested citation for the data package and a button to copy it. For more information see  [citing a data package](citing-data.md).
+The suggested citation for the data package and a button to copy it. For more information see  [citing a data package](/templates/resources/citing-data.md).
 
 ### Abstract
 
@@ -34,13 +34,13 @@ An embedded map displaying the geographic location as provided in the EML metada
 
 ### Package ID
 
-The data package identifier. For more information see [data package identifiers](the-data-package.md#identifiers-of-a-data-package).
+The data package identifier. For more information see [data package identifiers](/templates/resources/the-data-package.md#identifiers-of-a-data-package).
 
 If multiple revisions of a data package exist, this section will include links to traverse the revisions (**previous revision**, **next revision**) as well as a link to view **all revisions**.
 
 ### Resources
 
-A list of all files associated with the data package, including the [EML file](creating-metadata-for-publication.md#the-ecological-metadata-language-eml), an [Evaluation Report](evaluating-a-data-package.md#interpreting-the-evaluation-report), and data entities. 
+A list of all files associated with the data package, including the [EML file](/templates/resources/creating-metadata-for-publication.md#the-ecological-metadata-language-eml), an [Evaluation Report](/templates/resources/evaluating-a-data-package.md#interpreting-the-evaluation-report), and data entities. 
 
 #### View Full Metadata
 
@@ -48,7 +48,7 @@ A link to the **Full Metadata** page.
 
 #### View Data Package Report
 
-A link to the [Evaluation Report](evaluating-a-data-package.md#interpreting-the-evaluation-report) for the data package.
+A link to the [Evaluation Report](/templates/resources/evaluating-a-data-package.md#interpreting-the-evaluation-report) for the data package.
 
 
 #### Download Data
@@ -62,15 +62,15 @@ This button downloads a zip file containing the data package metadata (as text a
 
 ### Intellectual Rights
 
-The license associated with the data package describing any restrictions on use. For more information see [licensing data](licensing-data.md).
+The license associated with the data package describing any restrictions on use. For more information see [licensing data](/templates/resources/licensing-data.md).
 
 ### Digital Object Identifier
 
-The data package Digital Object Identifier (DOI). For more information see [data package DOIs](the-data-package.md#digital-object-identifier-doi).
+The data package Digital Object Identifier (DOI). For more information see [data package DOIs](/templates/resources/the-data-package.md#digital-object-identifier-doi).
 
 ### PASTA Identifier
 
-The data package [PASTA Identifier](the-data-package.md#data-object-identifier).
+The data package [PASTA Identifier](/templates/resources/the-data-package.md#data-object-identifier).
 
 ### Code Generation
 
@@ -80,7 +80,7 @@ Code generation functionality is _briefly demonstrated_ in [this video](https://
 
 ### Provenance
 
-This section displays [provenance information](provenance-metadata.md) related to the data package, including any packages that are derivations of the data package, or any data package that serve as a source to it.
+This section displays [provenance information](/templates/resources/provenance-metadata.md) related to the data package, including any packages that are derivations of the data package, or any data package that serve as a source to it.
 
 <img src="/static/images/provenance-section.png" width="80%"> 
 
@@ -89,7 +89,7 @@ Additionally, the section contains a link to generate provenance metadata to inc
 
 ### Journal Citations
 
-This section displays journal citations that have been added to the data package. For more information see [adding journal citations to data packages](add-citation.md). 
+This section displays journal citations that have been added to the data package. For more information see [adding journal citations to data packages](/templates/resources/add-citation.md). 
 
 <img src="/static/images/journal-citations-section.png" width="80%"> 
 
@@ -161,7 +161,7 @@ The funding and project information associated with these data, including the Pr
 
 #### Maintenance
 
-This section describes whether the data package creators plan to update the package with new data or if data collection is complete. This section will also display any history of revisions as documented during a [data package update](updating-a-data-package.md).
+This section describes whether the data package creators plan to update the package with new data or if data collection is complete. This section will also display any history of revisions as documented during a [data package update](/templates/resources/updating-a-data-package.md).
 
 ### Other Metadata
 

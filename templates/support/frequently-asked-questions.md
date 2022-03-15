@@ -6,19 +6,19 @@
 
 ## Why publish my data?
 
-Data are first class research objects, the publication of which provide immediate benefit to authors in terms of elevating their scholarly profile and longer-term benefits to the scientific institution in terms of more effective and trustworthy knowledge acquisition. For more see [Why Publish Data](../resources/why-publish-data.md).
+Data are first class research objects, the publication of which provide immediate benefit to authors in terms of elevating their scholarly profile and longer-term benefits to the scientific institution in terms of more effective and trustworthy knowledge acquisition. For more see [Why Publish Data](/templates/resources/why-publish-data.md).
 
 ## Why publish my data in EDI?
 
-The EDI Data Repository is a reliable, registered, and certified trustworthy data repository for ecological/environmental research data. For many more reasons why to publish in EDI see our list of [services](../resources/services.md).
+The EDI Data Repository is a reliable, registered, and certified trustworthy data repository for ecological/environmental research data. For many more reasons why to publish in EDI see our list of [services](/templates/resources/services.md).
 
 ## Are my data appropriate for EDI?
 
-The EDI Data Repository accepts ecological and environmental data. Data typically found in the repository include: observational data, experimental data, data used in a scientific article, synthesis data, and model outputs. For more information see the [accepted types of contributions](../resources/types-of-contributions.md).
+The EDI Data Repository accepts ecological and environmental data. Data typically found in the repository include: observational data, experimental data, data used in a scientific article, synthesis data, and model outputs. For more information see the [accepted types of contributions](/templates/resources/types-of-contributions.md).
 
 ## What services does EDI offer?
 
-A reliable, registered and certified trustworthy data repository, data curation assistance, data management consultation and training. See our list of [services](../resources/services.md) for more.
+A reliable, registered and certified trustworthy data repository, data curation assistance, data management consultation and training. See our list of [services](/templates/resources/services.md) for more.
 
 ## How much do EDI services cost?
 
@@ -44,8 +44,8 @@ A dataset has little value if it cannot be understood. The relatively high metad
 
 ## What metadata standards does the EDI repository accept?
 
-The EDI Data Repository uses the [Ecological Metadata Language (EML)](../resources/creating-metadata-for-publication.md#the-ecological-metadata-language-eml) standard. If your metadata are in a different standard, and you would like to convert to EML, please contact us. We have methods and tools to translate metadata of other standards to EML.
+The EDI Data Repository uses the [Ecological Metadata Language (EML)](/templates/resources/creating-metadata-for-publication.md#the-ecological-metadata-language-eml) standard. If your metadata are in a different standard, and you would like to convert to EML, please contact us. We have methods and tools to translate metadata of other standards to EML.
 
 ## Is there an API for the EDI Data Repository?
 
-Yes! Anything you can manually do in the repository can also be done via the EDI [REST API](../resources/rest-api.md).
+Yes! Anything you can manually do in the repository can also be done via the EDI [REST API](/templates/resources/rest-api.md).

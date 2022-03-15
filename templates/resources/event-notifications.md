@@ -63,7 +63,7 @@ The deleted subscription will be removed from the table at the bottom of the pag
 
 ### The notification
 
-An event notification is sent as an HTTP POST request to the Target URL and carries a payload containing the [data package identifier](the-data-package.md#data-package-identifier) in the body of the request, and the source URL in the header indicating which [repository environment](repository-environments.md) the event occurred within. Base of source URLs and their corresponding environment:
+An event notification is sent as an HTTP POST request to the Target URL and carries a payload containing the [data package identifier](/templates/resources/the-data-package.md#data-package-identifier) in the body of the request, and the source URL in the header indicating which [repository environment](/templates/resources/repository-environments.md) the event occurred within. Base of source URLs and their corresponding environment:
 
 * portal.edirepository.org = production
 * portal-s.edirepository.org = staging
@@ -87,5 +87,5 @@ Some other helpful information about event notifications and lessons learned fro
 
 ## Examples
 
-* ecocomDP-maintainer - Updates [ecocomDP](thematic-standardization.md#ecocomdp) data packages when their corresponding source data package updates.
+* ecocomDP-maintainer - Updates [ecocomDP](/templates/resources/thematic-standardization.md#ecocomdp) data packages when their corresponding source data package updates.
 * [PASTA Upload Tweeter](https://github.com/EDIorg/pasta-upload-tweeter) - Tweets when a new data package is uploaded to the EDI Data Repository.

@@ -14,7 +14,7 @@ The production environment is where data packages are officially and securely pu
 
 ## Staging
 
-The staging environment is where new features of the EDI Data Repository mature before release to production, and is used for creating a shareable proof of a data package during [the review process](the-review-process.md), and testing new workflows. The staging version of the EDI Data Portal can be accessed at [portal-s.edirepository.org](https://portal-s.edirepository.org). 
+The staging environment is where new features of the EDI Data Repository mature before release to production, and is used for creating a shareable proof of a data package during [the review process](/templates/resources/the-review-process.md), and testing new workflows. The staging version of the EDI Data Portal can be accessed at [portal-s.edirepository.org](https://portal-s.edirepository.org). 
 
 While the staging functions almost exactly as production, there are notable differences. The key differences are that packages published to the staging portal are not assigned a DOI and that landing pages have additional markup to alert users that they are viewing a test version of a package. Furthermore, EDI does not guarantee for data to be available here indefinitely.
 

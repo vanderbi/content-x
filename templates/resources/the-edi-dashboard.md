@@ -6,7 +6,7 @@ The EDI Dashboard gives users access to information and processes related to the
 
 ## Health
 
-[Health at a Glance](https://dashboard.edirepository.org/dashboard/health/glance) displays the statuses for PASTA+ Infrastructure and corresponding EDI Data Portals (see [Repository Environments](repository-environments.md) for more on the differences), EDI and LTER Generic Member Nodes (used to expose data hosted on the EDI Data Repository to DataONE), and other related services from EDI.
+[Health at a Glance](https://dashboard.edirepository.org/dashboard/health/glance) displays the statuses for PASTA+ Infrastructure and corresponding EDI Data Portals (see [Repository Environments](/templates/resources/repository-environments.md) for more on the differences), EDI and LTER Generic Member Nodes (used to expose data hosted on the EDI Data Repository to DataONE), and other related services from EDI.
 
 ## Reports
 
@@ -27,7 +27,7 @@ Users with admin privileges can access the list of active and inactive data pack
 
 ### Package Tracker
 
-The package tracker is a useful way to view data package overview information (title, data package identifier, DOI) and download information for specific resources within the data package. A time series plot for downloads by resource can also be generated. To use the package tracker, enter the full [data package identifier](the-data-package.md#data-package-identifier) for the data package of interest.
+The package tracker is a useful way to view data package overview information (title, data package identifier, DOI) and download information for specific resources within the data package. A time series plot for downloads by resource can also be generated. To use the package tracker, enter the full [data package identifier](/templates/resources/the-data-package.md#data-package-identifier) for the data package of interest.
 
 ### Recent Uploads
 
@@ -63,4 +63,4 @@ This dropdown contains options for managing users. Without admin privileges, use
 
 ## EDI Portals
 
-The links underneath this dropdown bring users directly to the EDI Data Portal [environment](repository-environments.md) listed (Production, Staging, Development).
+The links underneath this dropdown bring users directly to the EDI Data Portal [environment](/templates/resources/repository-environments.md) listed (Production, Staging, Development).

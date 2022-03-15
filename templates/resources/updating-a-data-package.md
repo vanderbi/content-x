@@ -1,6 +1,6 @@
 # Updating a Data Package
 
-Perform a data package update whenever data or metadata need to be changed or added to a published data package. Updates may be performed routinely or sporadically and will result in a new "revision". A revision of a data package has the same identifier, but receives a new [version number](the-data-package.md#data-package-identifier) and is assigned a new DOI. All revisions of a data package are linked in the EDI Data Repository. Users who end up on the landing page of an older revision will be notified that a newer version is available.
+Perform a data package update whenever data or metadata need to be changed or added to a published data package. Updates may be performed routinely or sporadically and will result in a new "revision". A revision of a data package has the same identifier, but receives a new [version number](/templates/resources/the-data-package.md#data-package-identifier) and is assigned a new DOI. All revisions of a data package are linked in the EDI Data Repository. Users who end up on the landing page of an older revision will be notified that a newer version is available.
 
 <img src="/static/images/data-package-versioning.png" width="30%">
 
@@ -28,7 +28,7 @@ Edit data and metadata using [ezEML](https://ezeml.edirepository.org/eml/):
 
 <img src="/static/images/ezeml-send-revision.png" width="85%">
 
-4. The EDI curation team will receive the submission and iterate through the [review process](the-review-process.md) before the update is published.
+4. The EDI curation team will receive the submission and iterate through the [review process](/templates/resources/the-review-process.md) before the update is published.
 
 >EML created with ezEML can be downloaded directly and published to the EDI Repository. If opting to publish your own updates, remember to enter an incremented version number in the **Data Package ID** tab of ezEML.
 
@@ -46,7 +46,7 @@ Edit data and metadata using [EMLassemblyline](https://ediorg.github.io/EMLassem
 
 ### EDI Data Portal
 
-An updated data package can be uploaded via the EDI Data Portal similarly to a [new data package](publishing-a-data-package.md), but with one key difference:
+An updated data package can be uploaded via the EDI Data Portal similarly to a [new data package](/templates/resources/publishing-a-data-package.md), but with one key difference:
 
 Use the **Allow PASTA+ to skip…** option if any of the data files are unchanged between versions. This allows the EDI Data Repository (a.k.a. PASTA) to forgo reuploading replicate data and can save time and repository space. _Caution: take care to ensure that the metadata-documented checksum values of each data file are accurate and up to date._
 
@@ -54,7 +54,7 @@ For more information on this option, watch [this video](https://youtu.be/AS6-m17
 
 ### EDIutils
 
-An updated data package can be uploaded via the [EDIutils](https://ediorg.github.io/EDIutils/) R package using the [`update_data_package()`](https://ediorg.github.io/EDIutils/reference/update_data_package.html) function. For updating with this function, all data files must be web-hosted and be associated with [static data links](uploading-with-static-data-links.md). When using this function, the `useChecksum` option can be selected.
+An updated data package can be uploaded via the [EDIutils](https://ediorg.github.io/EDIutils/) R package using the [`update_data_package()`](https://ediorg.github.io/EDIutils/reference/update_data_package.html) function. For updating with this function, all data files must be web-hosted and be associated with [static data links](/templates/resources/uploading-with-static-data-links.md). When using this function, the `useChecksum` option can be selected.
 
 Set the `useChecksum` argument to TRUE if any of the data objects are unchanged between versions. This allows the EDI Data Repository to forgo reuploading replicate data and can save time and repository space. _Caution: take care to ensure that metadata-documented checksum values are accurate and up to date._
 

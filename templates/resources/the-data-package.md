@@ -16,15 +16,15 @@ Data packages have some important features. First, they're immutable which makes
 
 ## What to include in a data package
 
-When publishing data in support of a manuscript, include the data required to reproduce the results. Consider publishing this data in a minimally processed form, so it can be reused in other contexts. To make results reproducible, include any scripts used in processing and analyzing the data. Be sure to include links to any external source data used in a data package with [provenance metadata](provenance-metadata.md).
+When publishing data in support of a manuscript, include the data required to reproduce the results. Consider publishing this data in a minimally processed form, so it can be reused in other contexts. To make results reproducible, include any scripts used in processing and analyzing the data. Be sure to include links to any external source data used in a data package with [provenance metadata](/templates/resources/provenance-metadata.md).
 
-If a data publication is not part of a manuscript, but serving general data reuse, then see our information management resource on [designing a data package](designing-a-data-package.md).
+If a data publication is not part of a manuscript, but serving general data reuse, then see our information management resource on [designing a data package](/templates/resources/designing-a-data-package.md).
 
 ## Identifiers of a data package
 
 ### Digital Object Identifier (DOI)
 
-The DOI is a globally unique and persistent identifier that unambiguously resolves to the data package [landing page](data-package-pages.md). DOIs are used in citations and references of a data package.
+The DOI is a globally unique and persistent identifier that unambiguously resolves to the data package [landing page](/templates/resources/data-package-pages.md). DOIs are used in citations and references of a data package.
 
 Example DOI: **doi:10.6073/pasta/0cd8caf2eb9959c98b335828628914fb**
 
@@ -52,4 +52,4 @@ The EDI Data Repository enforces strong versioning (i.e. published data and meta
 
 In the example above **edi.10.1** is superseded by **edi.10.2**, which in turn is superseded by **edi.10.3**. Each version in this series is accessible under the data package landing page **previous revision** link, but only the newest version is returned when searching. If browsing a superseded version, the landing page will highlight that "**This data package is not the most recent revision of a series"**.
 
-See the page on [Updating a Data Package](updating-a-data-package.md) for more on this topic.
+See the page on [Updating a Data Package](/templates/resources/updating-a-data-package.md) for more on this topic.

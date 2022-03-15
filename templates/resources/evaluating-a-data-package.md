@@ -2,7 +2,7 @@
 
 Evaluating a data package is key to ensuring that it contains a valid, well-formed EML file that accurately describes the data. Evaluations can be performed manually via the EDI Data Portal, or programmatically using the EDIutils R package or the REST API.
 
-Evaluating a data package requires an [EDI account](information-manager-quickstart.md#sign-up-for-an-edi-account). Other methods of authentication (e.g. Google, ORCID, GitHub) do not allow evaluation.
+Evaluating a data package requires an [EDI account](/templates/resources/information-manager-quickstart.md#sign-up-for-an-edi-account). Other methods of authentication (e.g. Google, ORCID, GitHub) do not allow evaluation.
 
 To learn more about evaluation and to request new checks, see the [EML Congruence Checker GitHub](https://github.com/EDIorg/ECC).
 
@@ -25,7 +25,7 @@ Navigate to the **Evaluate/Upload Data Packages** page:
 <img src="/static/images/eval-upload-dropdown-portal.png" width="85%">
 
 1. **Choose File** - Browse and select the EML file to be evaluated
-2. Unless every data object in the EML file is associated with [static data links](uploading-with-static-data-links.md), select the checkbox next to **Manually upload data…** to allow manual upload.
+2. Unless every data object in the EML file is associated with [static data links](/templates/resources/uploading-with-static-data-links.md), select the checkbox next to **Manually upload data…** to allow manual upload.
 
 <img src="/static/images/evaluate-manual-upload.png" width="85%">
 
@@ -58,7 +58,7 @@ Use the [`login()`](https://ediorg.github.io/EDIutils/reference/login.html) func
 
 ### Evaluating the data package
 
-Use the [`evaluate_data_package()`](https://ediorg.github.io/EDIutils/reference/evaluate_data_package.html) function to begin the evaluation process and provide the full path to the EML file and the [repository environment](repository-environments.md) to evaluate in.
+Use the [`evaluate_data_package()`](https://ediorg.github.io/EDIutils/reference/evaluate_data_package.html) function to begin the evaluation process and provide the full path to the EML file and the [repository environment](/templates/resources/repository-environments.md) to evaluate in.
 
 This function returns a "transaction identifier" that is used to reference the evaluation in subsequent function calls. After the evaluation process has begun, pass the transaction identifier to the [`check_status_evaluate()`](https://ediorg.github.io/EDIutils/reference/check_status_evaluate.html) function to determine if evaluation has completed.
 
@@ -208,4 +208,4 @@ The Dataset and Entity Reports share the same layout:
 
 ### Interpretation
 
-Parse through the document and address any errors or warnings (denoted by the **Error** and **Warn** labels). To understand why a quality check failed, first read the **Name** and **Description** of the quality check to determine what was being tested and how the test was being conducted. Then, compare the **Expected** result to what was **Found**. If it is still not clear what caused the failure, try to gain additional insight from the **Explanation**, **Suggestion**, and **Reference** fields, or [contact EDI](../support/contact-us.md) for clarification.
+Parse through the document and address any errors or warnings (denoted by the **Error** and **Warn** labels). To understand why a quality check failed, first read the **Name** and **Description** of the quality check to determine what was being tested and how the test was being conducted. Then, compare the **Expected** result to what was **Found**. If it is still not clear what caused the failure, try to gain additional insight from the **Explanation**, **Suggestion**, and **Reference** fields, or [contact EDI](/templates/support/contact-us.md) for clarification.

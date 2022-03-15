@@ -6,16 +6,16 @@ Before using a published data package, it is important to consider whether it me
 
 ## The license
 
-What license are the data released under? This is one of the first things to consider since it may preclude reuse. See [licensing data](licensing-data.md) for more information for more on how licenses affect the use of published data .
+What license are the data released under? This is one of the first things to consider since it may preclude reuse. See [licensing data](/templates/resources/licensing-data.md) for more information for more on how licenses affect the use of published data .
 
 
 ## Metadata completeness
 
-Metadata should be complete enough to answer questions and leave no uncertainty. Special attention should be paid to sampling methods and units. Understanding the original context and purpose of the data can indicate the data may be reused in similar or related contexts. When metadata are incomplete, consider reaching out directly to the contact listed under the **People** and **Organizations** section of the data package [full metadata page](data-package-pages.md).
+Metadata should be complete enough to answer questions and leave no uncertainty. Special attention should be paid to sampling methods and units. Understanding the original context and purpose of the data can indicate the data may be reused in similar or related contexts. When metadata are incomplete, consider reaching out directly to the contact listed under the **People** and **Organizations** section of the data package [full metadata page](/templates/resources/data-package-pages.md).
 
 ## Prior research using the data
 
-Have these data been used in other research articles? Understanding how the data have been used previously can avoid substantial and unexpected overlap.  Known usage of a data package is listed in the **Journal Citations** section of a data package [landing page](data-package-pages.md).
+Have these data been used in other research articles? Understanding how the data have been used previously can avoid substantial and unexpected overlap.  Known usage of a data package is listed in the **Journal Citations** section of a data package [landing page](/templates/resources/data-package-pages.md).
 
 ## Level of processing
 
@@ -23,8 +23,8 @@ How have these data been processed? Data packages often contain data that have b
 
 ## Explore the data
 
-Data exploration through visualization and statistical summarization provide access to information that is not conveyed in the metadata but wrapped up in the data. See [data exploration](data-exploration.md) for more on tools and techniques.
+Data exploration through visualization and statistical summarization provide access to information that is not conveyed in the metadata but wrapped up in the data. See [data exploration](/templates/resources/data-exploration.md) for more on tools and techniques.
 
 ## Engage with the author
 
-When using data collected by someone else, it is both courteous and wise to make direct contact before incorporating the data into a new analysis. Contact information is available under the **People** and **Organizations** section of the data package [full metadata page](data-package-pages.md).
+When using data collected by someone else, it is both courteous and wise to make direct contact before incorporating the data into a new analysis. Contact information is available under the **People** and **Organizations** section of the data package [full metadata page](/templates/resources/data-package-pages.md).

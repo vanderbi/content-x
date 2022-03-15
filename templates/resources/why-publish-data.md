@@ -9,7 +9,7 @@ Data are first class research objects, the publication of which provide immediat
 
 Publishing data in a repository clarifies who should receive credit in the form of citation or co-authorship when others use the data. Prior publication of data in a repository can help protect a data author from having their data misattributed. Researchers who publish data are more likely to be invited as co-authors on publications using the data and can increase research impact and citation rate. <sup>[2, 9, 10, 11]</sup>
 
-Articles citing data published in the EDI Repository are automatically cross referenced to research profiles (e.g. ORCiD, Google Scholar) and are displayed on [data package landing page](data-package-pages.md) under the **Journal Citations** section.
+Articles citing data published in the EDI Repository are automatically cross referenced to research profiles (e.g. ORCiD, Google Scholar) and are displayed on [data package landing page](/templates/resources/data-package-pages.md) under the **Journal Citations** section.
 
 ## Meet requirements
 

@@ -14,7 +14,7 @@ The [EDI Data Portal](https://portal.edirepository.org/nis/home.jsp) provides da
 
 Single data objects or the entire data package can be downloaded as files:
 
-1. From a [data package landing page](data-package-pages.md), navigate to the **Resources** section:
+1. From a [data package landing page](/templates/resources/data-package-pages.md), navigate to the **Resources** section:
 <img src="/static/images/access-resources.png" width="65%">
 2. Download individual resources by clicking the links under **Download Data**.
 3. Use the **Download Zip Archive** button to download the entire data package.
@@ -42,4 +42,4 @@ For a language-agnostic solution, see the REST API documentation on [Read Metada
 
 ## Accessing embargoed data
 
-Embargoed data can be accessed by users who are authorized according to the &lt;access> element of the EML file. Users should reach out directly to the contact listed on the data package for access to embargoed data. If the contact is unresponsive, [contact EDI](../support/contact-us.md) for assistance.
+Embargoed data can be accessed by users who are authorized according to the &lt;access> element of the EML file. Users should reach out directly to the contact listed on the data package for access to embargoed data. If the contact is unresponsive, [contact EDI](/templates/support/contact-us.md) for assistance.

@@ -8,7 +8,7 @@ EDI publishes data from the ecological and environmental sciences irrespective o
 
 We accept all ecological and environmental data irrespective of origin, however, the discovery and reuse of data from an ecology or environmental science sub-theme may be better served by a more specialized and finely scoped data repository (e.g. [GBIF](https://www.gbif.org/)).
 
->EDI [thematic standardization projects](thematic-standardization.md) replicate data to matching data repositories for enhanced discovery and reuse.
+>EDI [thematic standardization projects](/templates/resources/thematic-standardization.md) replicate data to matching data repositories for enhanced discovery and reuse.
 
 
 ## Common use cases
@@ -33,14 +33,14 @@ The EDI Data Repository accepts data of all types and file formats, though non-p
 
 ## Open access vs. embargoed
 
-All published data are immediately made open access, and only under specific circumstances may data be published in an embargoed form. For more information on embargoes see the [EDI Data Policy](../about/edi-policy.md#data-package-accessibility). Please [contact us](../support/contact-us.md) if you have a use case for which an embargo should be considered.
+All published data are immediately made open access, and only under specific circumstances may data be published in an embargoed form. For more information on embargoes see the [EDI Data Policy](/templates/about/edi-policy.md#data-package-accessibility). Please [contact us](/templates/support/contact-us.md) if you have a use case for which an embargo should be considered.
 
 
 ## Upload size limit
 
-There is a soft limit of 500 MB and hard limit of 100 GB per data package. The 500 MB limit can be relaxed by contacting the EDI Data Curation Team and avoided entirely by information managers with an EDI account and [uploading with static data links](https://docs.google.com/document/d/1DC403Wd6PfssjPXl-ToRNlC97xcr6kVoTWoFE4R2_bk/edit#heading=h.3yagd380wsrl). For data packages exceeding 100 GB please see the recommendations for [publishing large datasets](https://ediorg.github.io/data-package-best-practices/datapackage-design/large-data-sets.html) or [contact us](../support/contact-us.md) to find a solution.
+There is a soft limit of 500 MB and hard limit of 100 GB per data package. The 500 MB limit can be relaxed by contacting the EDI Data Curation Team and avoided entirely by information managers with an EDI account and [uploading with static data links](https://docs.google.com/document/d/1DC403Wd6PfssjPXl-ToRNlC97xcr6kVoTWoFE4R2_bk/edit#heading=h.3yagd380wsrl). For data packages exceeding 100 GB please see the recommendations for [publishing large datasets](https://ediorg.github.io/data-package-best-practices/datapackage-design/large-data-sets.html) or [contact us](/templates/support/contact-us.md) to find a solution.
 
 
 ## Fees
 
-Publication to the EDI Data Repository is currently free of cost for most use cases. If expecting to publish large volumes of data please [contact us](../support/contact-us.md) to negotiate cost sharing.
+Publication to the EDI Data Repository is currently free of cost for most use cases. If expecting to publish large volumes of data please [contact us](/templates/support/contact-us.md) to negotiate cost sharing.

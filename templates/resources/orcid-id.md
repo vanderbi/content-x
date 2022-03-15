@@ -47,14 +47,14 @@ If you would prefer not to allow DataCite to automatically update your ORCID pro
 3. In the **Works** section click the **Add** button, and then choose **Add manually** from the dropdown list. 
 4. Set Work Category to **Other**
 5. Set Work type to **Data set**
-6. Add your data package title as it appears on the EDI data package [landing page](data-package-pages.md).
+6. Add your data package title as it appears on the EDI data package [landing page](/templates/resources/data-package-pages.md).
 7. Specify "Environmental Data Initiative" as the Publisher
 
 <img src="/static/images/orcid-works2.png" width="60%">
 
 8. Add **Publication Date** and link, both of which can be found in the **Citation** section of your data package summary page.
 9. You can add the **Citation** from your data package landing page to the **Citation** section
-10. Under **Works Identifier** section, click **Add an identifier** to add your data package DOI (get the data package DOI from the **Digital Object Identifier** section of the [data package landing page](data-package-pages.md)).
+10. Under **Works Identifier** section, click **Add an identifier** to add your data package DOI (get the data package DOI from the **Digital Object Identifier** section of the [data package landing page](/templates/resources/data-package-pages.md)).
 11. Select **doi: Digital object identifier** from the dropdown for Identifier Type
 12. Add your data package DOI to the value and **URL** section as shown below
 
