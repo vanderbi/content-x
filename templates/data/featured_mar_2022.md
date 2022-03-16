@@ -38,7 +38,7 @@ The copper inhibited some phytoplankton more than others and killed many grazers
 <br><br>
 <figure>
     <img src="https://github.com/PASTAplus/content-x/blob/development/static/images/featured_data/results_low_toxicity_Taub.jpg"
-         alt="daphnia" align = "left">
+         alt="daphnia">
     <figcaption><b>Fig. 3: Low Cu++ (500 PPB), compared to control conditions, increased phytoplankton abundance by decreasing Daphnia grazing.</b></figcaption>
 </figure>
 <br><br>
