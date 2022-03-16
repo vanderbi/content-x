@@ -14,7 +14,7 @@ The Environmental Data Initiative (EDI) provides key services and technical expe
 
 We provide support, training, and resources to help archive and publish high-quality data and metadata. We operate a secure data repository and work closely with other leaders in information management, like the [LTER Network Communications Office](https://lternet.edu/nco/) and [DataONE](https://www.dataone.org/), to promote data management best practices and stewardship. Our team consists of highly motivated and experienced data practitioners, software developers, and research scientists.
 
-EDI is currently funded through grants from the National Science Foundation's (NSF) Division of Biological Infrastructure to the University of New Mexico (Award [#1931143](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1931143&HistoricalAwards=false)) and the University of Wisconsin-Madison (Award [#1931174](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1931174&HistoricalAwards=false)): "Collaborative Research: Environmental Data Initiative: Sustaining the Legacy of Scientific Data". Previous NSF funding was awarded through grants [#1565103](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1565103&HistoricalAwards=false) and [#1629233](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1629233&HistoricalAwards=false).
+EDI is currently funded through grants from the National Science Foundation's (NSF) Division of Biological Infrastructure to the University of New Mexico (Award [#1931143](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1931143&HistoricalAwards=false)) and the University of Wisconsin-Madison (Award [#1931174](v)): "Collaborative Research: Environmental Data Initiative: Sustaining the Legacy of Scientific Data". Previous NSF funding was awarded through grants [#1565103](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1565103&HistoricalAwards=false) and [#1629233](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1629233&HistoricalAwards=false).
 
 
 ## Team
@@ -30,7 +30,7 @@ EDI is currently funded through grants from the National Science Foundation's (N
         .
     </div>
     <div class="person_col">
-        <img alt="Corinna Gries" src="/static/images/corinna.jpg"/ width="20%">
+        <img alt="Corinna Gries" src="/static/images/corinna.jpg"/>
     </div>
 </div>
 <div class="person_row">
@@ -43,7 +43,7 @@ EDI is currently funded through grants from the National Science Foundation's (N
         .
     </div>
     <div class="person_col">
-        <img alt="Mark Servilla" src="/static/images/mark.jpg"/ width="20%">
+        <img alt="Mark Servilla" src="/static/images/mark.jpg"/>
     </div>
 </div>
 <div class="person_row">
@@ -56,7 +56,7 @@ EDI is currently funded through grants from the National Science Foundation's (N
         .
     </div>
     <div class="person_col">
-        <img alt="Kristin Vanderbilt" src="/static/images/kristin.jpg"/ width="20%">
+        <img alt="Kristin Vanderbilt" src="/static/images/kristin.jpg"/>
     </div>
 </div>
 <div class="person_row">
@@ -69,7 +69,7 @@ EDI is currently funded through grants from the National Science Foundation's (N
         .
     </div>
     <div class="person_col">
-        <img alt="Paul Hanson" src="/static/images/paul.jpg"/ width="20%">
+        <img alt="Paul Hanson" src="/static/images/paul.jpg"/>
     </div>
 </div>
 <div class="person_row">
@@ -84,7 +84,7 @@ EDI is currently funded through grants from the National Science Foundation's (N
         .
     </div>
     <div class="person_col">
-        <img alt="Margaret O'Brien" src="/static/images/margaret.jpg"/ width="20%">
+        <img alt="Margaret O'Brien" src="/static/images/margaret.jpg"/>
     </div>
 </div>
 <div class="person_row">
@@ -97,7 +97,7 @@ EDI is currently funded through grants from the National Science Foundation's (N
         .
     </div>
     <div class="person_col">
-        <img alt="Robert Waide" src="/static/images/bob.jpg"/ width="20%">
+        <img alt="Robert Waide" src="/static/images/bob.jpg"/>
     </div>
 </div>
 <div class="person_row">
@@ -111,7 +111,7 @@ EDI is currently funded through grants from the National Science Foundation's (N
         .
     </div>
     <div class="person_col">
-        <img alt="James Brunt" src="/static/images/james.jpg"/ width="20%">
+        <img alt="James Brunt" src="/static/images/james.jpg"/>
     </div>
 </div>
 <div class="person_row">
@@ -125,7 +125,7 @@ EDI is currently funded through grants from the National Science Foundation's (N
     </div>
     <div class="person_col">
         <img alt="Susanne Grossman-Clarke"
-             src="/static/images/susanne.jpg"/ width="20%">
+             src="/static/images/susanne.jpg"/>
     </div>
 </div>
 <div class="person_row">
@@ -138,7 +138,7 @@ EDI is currently funded through grants from the National Science Foundation's (N
         .
     </div>
     <div class="person_col">
-        <img alt="Jon Ide" src="/static/images/jon.jpg"/ width="20%">
+        <img alt="Jon Ide" src="/static/images/jon.jpg"/>
     </div>
 </div>
 <div class="person_row">
@@ -154,7 +154,7 @@ EDI is currently funded through grants from the National Science Foundation's (N
         .
     </div>
     <div class="person_col">
-        <img alt="Colin Smith" src="/static/images/colin.jpg"/ width="20%">
+        <img alt="Colin Smith" src="/static/images/colin.jpg"/>
     </div>
 </div>
 <div class="person_row">
@@ -170,7 +170,7 @@ EDI is currently funded through grants from the National Science Foundation's (N
     </div>
     <div class="person_col">
         <img alt="Kyle Zollo-Venecek"
-             src="/static/images/kyle.png"/ width="20%">
+             src="/static/images/kyle.png"/>
     </div>
 </div>
 
@@ -189,7 +189,7 @@ EDI employs industry standard protocols to ensure that all scientific data are w
 
 ### Standards for data, metadata, and software
 
-EDI's data repository accepts data in any digital format. All science data curated by EDI is required to be described and documented with the [Ecological Metadata Language (EML)](/templates/resources/creating-metadata-for-publication.md#the-ecological-metadata-language-eml) standard. The data repository supports versions 2.1.0, 2.1.1, and 2.2.0 of EML. EML is a semantically rich science metadata standard that is actively supported as an open source project.
+EDI's data repository accepts data in any digital format. All science data curated by EDI is required to be described and documented with the [Ecological Metadata Language (EML)](/resources/creating-metadata-for-publication#the-ecological-metadata-language-eml) standard. The data repository supports versions 2.1.0, 2.1.1, and 2.2.0 of EML. EML is a semantically rich science metadata standard that is actively supported as an open source project.
 
 EDI-developed software products fall into two categories: the PASTA+ software stack for the data repository and software in support of general data management practices. All EDI software development follows principles utilized by open source projects, including frequent and incremental submittals of written code, documentation, and architectural diagrams to a recognized software repository. EDI uses two separate GitHub repositories for software management and control: one for PASTA+ software ([PASTAplus](https://github.com/PASTAplus)) and another for data management support tools ([EDIorg](https://github.com/EDIorg)).
 
