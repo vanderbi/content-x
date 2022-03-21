@@ -28,3 +28,5 @@ Data exploration through visualization and statistical summarization provide acc
 ## Engage with the author
 
 When using data collected by someone else, it is both courteous and wise to make direct contact before incorporating the data into a new analysis. Contact information is available under the **People** and **Organizations** section of the data package [full metadata page](/templates/resources/data-package-pages.md).
+
+## Getting that "good data" vibe
